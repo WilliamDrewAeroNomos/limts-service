@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.in28minutes.rest.webservices.limitsservice.bean;
+package com.governmentcio.condor.limitsservice.bean;
 
 /**
  * @author <a href=mailto:support@aeronomos.org>aeronomos</a>
@@ -10,8 +10,8 @@ package com.in28minutes.rest.webservices.limitsservice.bean;
  */
 public class LimitConfiguration {
 
-	private int maximum;
 	private int minimum;
+	private int maximum;
 
 	protected LimitConfiguration() {
 	}
@@ -40,6 +40,17 @@ public class LimitConfiguration {
 
 	public void setMinimum(int minimum) {
 		this.minimum = minimum;
+	}
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("LimitConfiguration [minimum=");
+		builder.append(minimum);
+		builder.append(", maximum=");
+		builder.append(maximum);
+		builder.append("]");
+		return builder.toString();
 	}
 
 }
