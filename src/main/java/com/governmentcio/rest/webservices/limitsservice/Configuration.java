@@ -1,15 +1,16 @@
 /**
  * 
  */
-package com.governmentcio.condor.limitsservice;
+package com.governmentcio.rest.webservices.limitsservice;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
- * @author <a href=mailto:support@aeronomos.org>aeronomos</a>
  * 
- *         Please document me!!
+ * @author <a href=mailto:support@governmentcio.com>support</a>
+ * 
+ * Please document me!!
  */
 @Component
 @ConfigurationProperties("limits-service")

@@ -1,4 +1,4 @@
-package com.governmentcio.condor.limitsservice;
+package com.governmentcio.rest.webservices.limitsservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

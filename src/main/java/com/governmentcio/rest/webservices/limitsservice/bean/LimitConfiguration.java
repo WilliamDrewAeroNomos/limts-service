@@ -1,12 +1,13 @@
 /**
  * 
  */
-package com.governmentcio.condor.limitsservice.bean;
+package com.governmentcio.rest.webservices.limitsservice.bean;
 
 /**
- * @author <a href=mailto:support@aeronomos.org>aeronomos</a>
  * 
- *         Please document me!!
+ * @author <a href=mailto:support@governmentcio.com>support</a>
+ * 
+ * Please document me!!
  */
 public class LimitConfiguration {
 

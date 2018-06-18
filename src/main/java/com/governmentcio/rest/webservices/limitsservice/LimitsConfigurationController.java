@@ -1,18 +1,19 @@
 /**
  * 
  */
-package com.governmentcio.condor.limitsservice;
+package com.governmentcio.rest.webservices.limitsservice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.governmentcio.condor.limitsservice.bean.LimitConfiguration;
+import com.governmentcio.rest.webservices.limitsservice.bean.LimitConfiguration;
 
 /**
- * @author <a href=mailto:support@aeronomos.org>aeronomos</a>
  * 
- *         Please document me!!
+ * @author <a href=mailto:support@governmentcio.com>support</a>
+ * 
+ * Please document me!!
  */
 @RestController
 public class LimitsConfigurationController {

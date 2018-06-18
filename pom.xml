@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.governmentcio.condor</groupId>
+	<groupId>com.governmentcio.rest.webservices</groupId>
 	<artifactId>limits-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>limits-service</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Provides minimum and maximum values for a particular attribute.</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -41,16 +41,10 @@
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
 
-		<!-- <dependency> -->
-		<!-- <groupId>org.springframework.cloud</groupId> -->
-		<!-- <artifactId>spring-cloud-starter-hystrix</artifactId> -->
-		<!-- </dependency> -->
-
 		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-hystrix -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-hystrix</artifactId>
-			<version>1.4.4.RELEASE</version>
+			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
 		</dependency>
 
 		<dependency>
